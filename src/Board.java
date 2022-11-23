@@ -1,10 +1,3 @@
-
-/**
- * Write a description of class Board here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class Board{
     private Actor[][] board;
     public Board(int rows, int cols){
@@ -35,9 +28,6 @@ public class Board{
         }
     }
 
-    /**
-     * Swaps the actor at r1 and c1 with the actor at r2 and c2
-     */
     public void swapLocations(int r1, int c1, int r2, int c2){
         if(r1 < board[0].length && r1 >= 0 & c1 < board[1].length && c1 >= 0 && r2 < board[0].length && r2 >= 0 & c2 < board[1].length && c2 >= 0){
             Actor subActor = board[r1][c1];
@@ -46,7 +36,6 @@ public class Board{
         }else{
             System.out.println("Board: void swapLocations(int, int, int, int)\nr1 = " + r1 + " c1 = " + c1 + " r2 = " + r2 + " c2 = " + c2);
         }
-        
     }
 
     public void resetBoard(){

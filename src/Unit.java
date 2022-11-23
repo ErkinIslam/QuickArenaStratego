@@ -13,14 +13,10 @@ public abstract class Unit extends Actor{
     private int actorClass;
     private String name;
 
-    /**
-     * Constructor for objects of class Actor
-     */
     public Unit(int rows, int cols, int actorClass, String name){
         super(rows, cols);
         this.actorClass = actorClass;
         this.name = name;
-        //caliculateMove();
     }
 
     public int getUnitClass(){

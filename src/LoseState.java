@@ -5,7 +5,6 @@ import javax.imageio.*;
 
 import java.io.*;
 
-//import java.
 public class LoseState extends GameState {
 
     BufferedImage backgroundImage;

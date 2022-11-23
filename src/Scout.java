@@ -2,16 +2,8 @@ import java.awt.image.*;
 import javax.imageio.*;
 import java.io.*;
 
-/**
- * Write a description of class Scout here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
+
 public class Scout extends Unit {
-    /**
-     * Constructor for objects of class Marshal
-     */
     public Scout(int row, int col)
     {
         super(row, col, Unit.SCOUT_VALUE, "Scout");

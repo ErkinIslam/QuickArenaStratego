@@ -1,16 +1,8 @@
 import java.awt.image.*;
 import javax.imageio.*;
 import java.io.*;
-/**
- * Write a description of class Rock here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
+
 public class Rock extends Actor{
-    /**
-     * Constructor for objects of class Rock
-     */
     public Rock(int row, int col){
         super(row, col);
         BufferedImage label;

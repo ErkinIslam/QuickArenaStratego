@@ -2,16 +2,7 @@ import java.awt.image.*;
 import javax.imageio.*;
 import java.io.*;
 
-/**
- * Write a description of class General here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class General extends Unit{
-    /**
-     * Constructor for objects of class Marshal
-     */
     public General(int row, int col)
     {
         super(row, col, Unit.GENERAL_VALUE, "General");

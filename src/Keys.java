@@ -1,10 +1,4 @@
- 
-
-import java.awt.event.KeyEvent;
-
-// this class contains a boolean array of current and previous key states
-// for the 10 keys that are used for this game.
-// a key k is down when keyState[k] is true.
+ import java.awt.event.KeyEvent;
 
 public class Keys {
 	
@@ -12,7 +6,7 @@ public class Keys {
 	
 	public static boolean keyState[] = new boolean[NUM_KEYS];
 	public static boolean prevKeyState[] = new boolean[NUM_KEYS];
-	
+
 	public static final int UP = 0;
 	public static final int LEFT = 1;
 	public static final int DOWN = 2;

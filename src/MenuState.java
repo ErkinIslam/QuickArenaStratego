@@ -3,7 +3,6 @@ import java.awt.image.*;
 import javax.imageio.*;
 import java.io.*;
 
-//import java.
 public class MenuState extends GameState {
     
     BufferedImage backgroundImage;

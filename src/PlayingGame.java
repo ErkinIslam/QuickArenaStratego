@@ -5,7 +5,6 @@ import javax.imageio.*;
 
 import java.io.*;
 
-//import java.
 public class PlayingGame extends GameState {
 
     BufferedImage backgroundImage;
@@ -86,19 +85,7 @@ public class PlayingGame extends GameState {
                 computerPercent = 0;
             }
         }
-
-        //piece decision testing
-        /*if(GamePanel.board.getAtLocation(choiceY, choiceX) instanceof Unit){
-        Unit testingUnit = (Unit) GamePanel.board.getAtLocation(choiceY, choiceX);
-
-        System.out.println("-----------------------\nX " + choiceY + " Y " + choiceX);
-        System.out.println("getRow(): " + testingUnit.getRow() + " getCol():" + testingUnit.getCol());
-        System.out.println("Front: " + canMoveFront(testingUnit));
-        //System.out.println("Bottom: " + testingUnit.bottomClear());
-        //.out.println("Right: " + testingUnit.rightClear());
-        //System.out.println("Left: " + testingUnit.leftClear());
-        }*/
-
+        
         handleInput();
         textSize = (int) ((GamePanel.HEIGHT - logoImage.getHeight() - 15) / 35);
 

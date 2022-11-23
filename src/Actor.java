@@ -1,12 +1,6 @@
 import java.awt.image.*;
-/**
- * Abstract class Actor - write a description of the class here
- * 
- * @author (your name here)
- * @version (version number or date here)
- */
+
 public abstract class Actor{
-    // instance variables - replace the example below with your own
     private int locRows;
     private int locCols;
 

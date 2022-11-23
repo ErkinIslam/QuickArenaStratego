@@ -1,11 +1,8 @@
 import java.awt.*;
 import java.awt.image.*;
-
 import javax.imageio.*;
-
 import java.io.*;
 
-//import java.
 public class SetUpBoard extends GameState {
 
     BufferedImage backgroundImage;
@@ -80,13 +77,6 @@ public class SetUpBoard extends GameState {
         flashSelectedPiece = true;
 
         GamePanel.board.resetBoard();
-        /*
-         * DEVELOPERS NOTE::
-         * GamePanel.board.setAtLocation(X, Y);
-         * GamePanel.board.getAtLocation(row, colomn);
-         * 
-         * This should be fixed ASAP
-         */
         //THESE ARE IN (X, Y) COORS!! DONT FORGET 
         GamePanel.board.setAtLocation(new Rock(2, 4));
         GamePanel.board.setAtLocation(new Rock(3, 4));
@@ -117,15 +107,7 @@ public class SetUpBoard extends GameState {
         }
 
         textSize = (int) ((GamePanel.HEIGHT - logoImage.getHeight() - 15) / 35);
-        //because when setting up, we dont want the player to go wSpyhere he can not place
-        //TODO
-        /*
-         * choiceX seems to be refering to the Y
-         * and
-         * choiceY seems to be refering to the X
-         * 
-         * Thats kind of a problem....
-         */
+        
         if(choiceX < 6){
             choiceX = 9;
         }

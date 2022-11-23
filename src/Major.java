@@ -1,16 +1,8 @@
 import java.awt.image.*;
 import javax.imageio.*;
 import java.io.*;
-/**
- * Write a description of class Major here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
+
 public class Major extends Unit{
-    /**
-     * Constructor for objects of class Marshal
-     */
     public Major(int row, int col)
     {
         super(row, col, Unit.MAJOR_VALUE, "Major");

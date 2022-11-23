@@ -1,10 +1,3 @@
-
-/**
- * Write a description of class Computer here.
- * 
- * @author (your name) 
- * @version (a version number or a date)
- */
 public class Computer{
     public void setInitialState(Board board){
         board.setAtLocation(new Flag(0, 0));//(x, y)
@@ -83,7 +76,7 @@ public class Computer{
             leftDist = Math.sqrt(Math.pow((actorX - unit.getRow() - 1), 2) + Math.pow((actorY - unit.getCol()), 2));
         }
 
-        //System.out.println("down: " + downDist + " right: " + rightDist + " left: " + leftDist);
+        System.out.println("down: " + downDist + " right: " + rightDist + " left: " + leftDist);
 
         if(Math.min(downDist, Math.min(rightDist, leftDist)) == downDist){
             if(GamePanel.board.getAtLocation(unit.getRow(), unit.getCol() + 1) == null){

@@ -5,7 +5,6 @@ import javax.imageio.*;
 
 import java.io.*;
 
-//import java.
 public class WinState extends GameState {
 
     BufferedImage backgroundImage;
